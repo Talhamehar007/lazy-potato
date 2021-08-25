@@ -19,6 +19,7 @@ pip3 install youtube-dl instagram-scraper instaloader
 # Install NVM and NPM and then NODEJS
 sudo apt install curl -y # Optional, Just in case CURL was not installed
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+export NVM_DIR="$HOME/.nvm"
 source ~/.profile  
 nvm install --lts
 
