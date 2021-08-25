@@ -20,6 +20,7 @@ This script was tested on Ubuntu 20.04.3 but hopefully will work on all the debi
 
 ## Most Common Apps:
 * Vlc 
+* Google Chrome
 * Ubuntu Cleaner
 * Bleach Bit
 * Stacer
