@@ -55,15 +55,15 @@ You Can skip these if you are a normal user and not a programmer.
 * create-react-app
 
 ## Useful Productivity Tools
-* ncdu  **_Ncdu is a ncurses-based du viewer_**
-* dust  **_Another alternative for du written in Dust_**
-* mlocate **_locate comand in *Nix OS_**
-* htop  **_CPU Usage and Processes viewwe_**
-* copyq **_Advanced clipboard manager with editing and scripting features_**
-* Transmission **_A bitTorrent Client_**
-* neofetch  **_Shows Linux System Information with Distribution Logo_**
-* youtube-dl **_Doesn't need any introduction_**
-* speedtest by OOKLA **_ To check your internet speed_**
+* ncdu  --> **_Ncdu is a ncurses-based du viewer_**
+* dust  --> **_Another alternative for du written in Dust_**
+* mlocate --> **_locate comand in *Nix OS_**
+* htop  --> **_CPU Usage and Processes viewwe_**
+* copyq --> **_Advanced clipboard manager with editing and scripting features_**
+* Transmission --> **_A bitTorrent Client_**
+* neofetch  --> **_Shows Linux System Information with Distribution Logo_**
+* youtube-dl --> **_Doesn't need any introduction_**
+* speedtest by OOKLA --> **_ To check your internet speed_**
 
 
 ## Miscelaneous
