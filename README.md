@@ -64,6 +64,7 @@ You Can skip these if you are a normal user and not a programmer.
 * neofetch  --> **_Shows Linux System Information with Distribution Logo_**
 * youtube-dl --> **_Doesn't need any introduction_**
 * speedtest by OOKLA --> **_To check your internet speed_**
+* vnstat  --> **_Console-based network traffic monitor_**
 
 
 ## Miscelaneous
