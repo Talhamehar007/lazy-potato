@@ -63,7 +63,7 @@ You Can skip these if you are a normal user and not a programmer.
 * Transmission --> **_A bitTorrent Client_**
 * neofetch  --> **_Shows Linux System Information with Distribution Logo_**
 * youtube-dl --> **_Doesn't need any introduction_**
-* speedtest by OOKLA --> **_ To check your internet speed_**
+* speedtest by OOKLA --> **_To check your internet speed_**
 
 
 ## Miscelaneous
