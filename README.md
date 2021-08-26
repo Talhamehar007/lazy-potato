@@ -74,7 +74,7 @@ You Can skip these if you are a normal user and not a programmer.
 * gnome-shell-extensions
 * instagram-scraper
 * tiktok-scraper
-* Canta Themes and Numix Icon Circle Themes # My Personal Favourite
+* Canta Themes and Numix Icon Circle Themes --> **_My Personal Favourite_**
 
 
 ## Remove/Add:
