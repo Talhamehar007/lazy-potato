@@ -66,6 +66,7 @@ You Can skip these if you are a normal user and not a programmer.
 * youtube-dl --> **_Doesn't need any introduction_**
 * speedtest by OOKLA --> **_To check your internet speed_**
 * vnstat  --> **_Console-based network traffic monitor_**
+* flameshot --> **_Powerful yet simple-to-use screenshot software_**
 
 
 ## Miscelaneous
