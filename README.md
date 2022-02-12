@@ -67,6 +67,7 @@ You Can skip these if you are a normal user and not a programmer.
 * speedtest by OOKLA --> **_To check your internet speed_**
 * vnstat  --> **_Console-based network traffic monitor_**
 * flameshot --> **_Powerful yet simple-to-use screenshot software_**
+* xclip --> **_Xclip Clipboard manager; copy:xclip -selection clipboard; paste:xclip -o_**
 
 
 ## Miscelaneous
