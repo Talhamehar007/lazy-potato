@@ -72,6 +72,7 @@ You Can skip these if you are a normal user and not a programmer.
 
 ## Miscelaneous
 * gnome-tweaks 
+* grub-customizer
 * gnome-shell-extensions
 * instagram-scraper
 * tiktok-scraper
