@@ -68,6 +68,9 @@ You Can skip these if you are a normal user and not a programmer.
 * vnstat  --> **_Console-based network traffic monitor_**
 * flameshot --> **_Powerful yet simple-to-use screenshot software_**
 * xclip --> **_Xclip Clipboard manager; copy:xclip -selection clipboard; paste:xclip -o_**
+* tlp --> **_TLP supplies separate settings profiles for AC and battery power and can
+ enable or disable Bluetooth, Wi-Fi and WWAN radio devices upon system startup.
+_**
 
 
 ## Miscelaneous
