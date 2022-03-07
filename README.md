@@ -71,6 +71,7 @@ You Can skip these if you are a normal user and not a programmer.
 * tlp --> **_TLP supplies separate settings profiles for AC and battery power and can
  enable or disable Bluetooth, Wi-Fi and WWAN radio devices upon system startup.
 _**
+* hardinfo --> **_Displays system information_**
 
 
 ## Miscelaneous
