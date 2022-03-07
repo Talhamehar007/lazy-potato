@@ -6,7 +6,7 @@ sudo apt full-upgrade -y
 sudo apt autoremove -y
 
 # Install necessary packages using APT
-sudo apt install -y python3 python3-pip python vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client mlocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip grub-customizer tlp
+sudo apt install -y python3 python3-pip python vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client mlocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip grub-customizer tlp hardinfo
 
 # Install SNAP packages
 sudo snap install dust telegram-desktop
