@@ -72,6 +72,7 @@ You Can skip these if you are a normal user and not a programmer.
  enable or disable Bluetooth, Wi-Fi and WWAN radio devices upon system startup.
 _**
 * hardinfo --> **_Displays system information_**
+* moc --> **_ncurses based console audio player_**
 
 
 ## Miscelaneous
