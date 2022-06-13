@@ -9,11 +9,16 @@ sudo apt autoremove -y
 # Install necessary packages using APT
 sudo apt install -y python3 python3-pip python vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client mlocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip grub-customizer tlp hardinfo moc
 
+
 # Install Starship
 cur.l -sS https://starship.rs/install.sh | sh
+# Add Starship to the bashrc config file
 echo eval "$(starship init bash)" >> ~/.bashrc
+# Install Garuda Starship theme
+curl https://raw.githubusercontent.com/Talhamehar007/lazy-potato/main/starship.toml > ~/.config/starship.toml
 
-# Install .BASHRC file
+
+# Install custom BASHRC configuration file
 curl https://raw.githubusercontent.com/Talhamehar007/lazy-potato/main/bashrc > ~/.bashrc
 
 # Install SNAP packages
