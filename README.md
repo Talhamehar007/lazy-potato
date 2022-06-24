@@ -10,7 +10,7 @@ If you are new to Linux or you are just a developer and reinstalled your OS, jus
 
 
 ## Using `Curl`:
->    curl https://raw.githubusercontent.com/talhamehar007/lazy-potato/master/lazy-potato.sh | bash
+>     curl https://raw.githubusercontent.com/talhamehar007/lazy-potato/master/install.sh | bash
 
 
 # List of tools to be installed:
