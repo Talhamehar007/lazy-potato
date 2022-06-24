@@ -8,11 +8,9 @@ If you are new to Linux or you are just a developer and reinstalled your OS, jus
 
 # Usage:
 
-## Using `Git`:
-> ```sudo apt install git && git clone https://github.com/Talhamehar007/lazy-potato.git && cd lazy-potato && bash ./lazy-potato.sh```
 
 ## Using `Curl`:
-> ```sudo apt install curl && curl https://raw.githubusercontent.com/talhamehar007/lazy-potato/master/lazy-potato.sh | bash```
+>    curl https://raw.githubusercontent.com/talhamehar007/lazy-potato/master/lazy-potato.sh | bash
 
 
 # List of tools to be installed:
@@ -73,6 +71,7 @@ You Can skip these if you are a normal user and not a programmer.
 _**
 * hardinfo --> **_Displays system information_**
 * moc --> **_ncurses based console audio player_**
+* scrot --> **_command line screen capture utility_**
 
 
 ## Miscelaneous
