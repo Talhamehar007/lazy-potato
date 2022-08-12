@@ -4,7 +4,7 @@
 sudo apt update
 
 # Install necessary packages using APT
-sudo apt install -y python3 python3-pip python vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client plocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip tlp hardinfo moc scrot mediainfo
+sudo apt install -y python3 python3-pip python vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client plocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip tlp hardinfo moc scrot mediainfo tree exa bat fd-find duf caffeine
 
 
 # Install Starship
@@ -17,6 +17,12 @@ curl https://raw.githubusercontent.com/Talhamehar007/dotfiles/main/config/starsh
 
 # Install custom BASHRC configuration file
 curl https://raw.githubusercontent.com/Talhamehar007/lazy-potato/main/bashrc > ~/.bashrc
+
+# Install Hyperfine
+wget https://github.com/sharkdp/hyperfine/releases/download/v1.13.0/hyperfine_1.13.0_amd64.deb
+chmod +x hyperfine_1.13.0_amd64.deb
+sudo dpkg -i hyperfine_1.13.0_amd64.deb
+rm hyperfine_1.13.0_amd64.deb
 
 # Install SNAP packages
 sudo snap install dust telegram-desktop
