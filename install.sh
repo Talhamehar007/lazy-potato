@@ -4,15 +4,15 @@
 sudo apt update
 
 # Install necessary packages using APT
-sudo apt install -y python3 python3-pip python vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client mlocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip grub-customizer tlp hardinfo moc scrot mediainfo
+sudo apt install -y python3 python3-pip python vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client plocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip tlp hardinfo moc scrot mediainfo
 
 
 # Install Starship
-cur.l -sS https://starship.rs/install.sh | sh
+curl -sS https://starship.rs/install.sh | sh
 # Add Starship to the bashrc config file
 echo eval "$(starship init bash)" >> ~/.bashrc
 # Install Garuda Starship theme
-curl https://raw.githubusercontent.com/Talhamehar007/lazy-potato/main/starship.toml > ~/.config/starship.toml
+curl https://raw.githubusercontent.com/Talhamehar007/dotfiles/main/config/starship/starship.toml > ~/.config/starship.toml
 
 
 # Install custom BASHRC configuration file
