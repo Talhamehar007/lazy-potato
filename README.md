@@ -72,6 +72,9 @@ _**
 * hardinfo --> **_Displays system information_**
 * moc --> **_ncurses based console audio player_**
 * scrot --> **_command line screen capture utility_**
+* memtester --> **_stress test to find memory subsystem faults_**
+* stress-ng --> **_a tool to load and stress a computer system_**
+* plz-cli --> **_Generate bash scripts from the command line, using Codex, ChatGPT_** 
 
 
 ## Miscelaneous
