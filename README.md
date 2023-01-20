@@ -25,6 +25,9 @@ This script was tested on Ubuntu 20.04.3 but hopefully will work on all the debi
 * Proton VPN
 * Telegram Desktop
 
+## AUDIO
+* pavucontrol - (PulseAudio Volume Control)
+
 ## Related to Programming
 You Can skip these if you are a normal user and not a programmer.
 * Git
