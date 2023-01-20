@@ -1,9 +1,20 @@
-# lazy-potato
+# Lazy-Potato
 
-Linux Post Installation Script. Saves you a lot of time and energy by automating the process to install the most commonly used tools after a fresh install of Linux (Any debian based distro). 
+Welcome to the Lazy-Potato repository! This is a Linux post-installation script that saves you time and energy by automating the process of installing the most commonly used tools after a fresh install of Linux (Any Debian based distro).
+
+Are you new to Linux or are you a developer who likes to reinstall your OS every few months? If so, this script is for you. We understand the tedious task of having to manually install the tools you use every time you reinstall your OS. With this script, you no longer have to visit different websites, download .deb files, or search for installation methods. 
+
+This script is designed to work on any Debian based distro such as Ubuntu, Debian, Linux Mint, etc. It installs a variety of tools such as development tools, productivity tools, and multimedia tools. With this script, you can easily install your most commonly used tools with just a single command.
+
+To use this script, simply clone this repository and run the `lazy-potato.sh` script with root permissions.
 
 
-If you are new to Linux or you are just a developer and reinstalled your OS, just like me who likes to re-install the OS every few months, this script is for you. Every 3 to 4 months I re-install the OS and I have to install the most commonly used tools again on the system as they don't come pre installed in most of the Linux distros like Ubuntu. Sometimes I forget what tools I was using before. And even I remember all those names, I have to install those one by one by entering commands, waiting for that command to finish, and again entering another command. I am a lazy person so I created this script to automate the whole process. Because it's a very tedious job to to visit different websites, downodload the .deb files or search for their installation method because all the tools are not available in apt repositories.
+Please note that this script installs tools by adding the official repositories or using the official package manager, if not found it will try to download the .deb package.
+
+We welcome contributions and suggestions to improve this script. If you have any issues, please report them in the [Issues](https://github.com/username/lazy-potato/issues) section of this repository.
+
+Thank you for using Lazy-Potato! Happy coding!
+
 
 
 # Usage:
