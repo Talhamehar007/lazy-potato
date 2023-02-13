@@ -4,7 +4,7 @@
 sudo apt update
 
 # Install necessary packages using APT
-sudo apt install -y python3 python3-pip vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client plocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip tlp hardinfo moc scrot mediainfo tree exa bat fd-find duf caffeine pavucontrol
+sudo apt install -y python3 python3-pip vlc git wget curl net-tools netcat nmap neofetch openssh-server openssh-client plocate bleachbit ncdu php whois gufw ffmpeg openjdk-8-jre openvpn snapd htop copyq transmission vnstat gnome-tweaks gnome-shell-extensions stacer flameshot xclip tlp hardinfo moc scrot mediainfo tree exa bat fd-find duf caffeine pavucontrol rclone psensor
 
 
 
