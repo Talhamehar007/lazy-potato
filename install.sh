@@ -1,5 +1,54 @@
 #!/bin/bash
 
+install_package() {
+    local package=$1
+
+    if [ -f /etc/os-release ]; then
+        # Reads the /etc/os-release file to determine the distribution
+        source /etc/os-release
+        case $ID_LIKE in
+            *debian*)
+                sudo apt-get update
+                sudo apt-get install -y $package
+                ;;
+            *rhel*)
+                sudo yum update
+                sudo yum install -y $package
+                ;;
+            *fedora*)
+                sudo dnf update
+                sudo dnf install -y $package
+                ;;
+            *arch*)
+                sudo pacman -Sy
+                sudo pacman -S --noconfirm $package
+                ;;
+            *)
+                echo "This script does not support your distribution: $ID"
+                exit 1
+                ;;
+        esac
+    elif [ -f /etc/redhat-release ]; then
+        # Reads the /etc/redhat-release file to determine the distribution
+        local redhat_release=$(cat /etc/redhat-release)
+        if [[ $redhat_release == "CentOS"* ]]; then
+            sudo yum update
+            sudo yum install -y $package
+        elif [[ $redhat_release == "Fedora"* ]]; then
+            sudo dnf update
+            sudo dnf install -y $package
+        else
+            echo "This script does not support your distribution: $redhat_release"
+            exit 1
+        fi
+    else
+        echo "This script does not support your distribution."
+        exit 1
+    fi
+}
+
+
+
 # Update and Upgrade yor system
 sudo apt update
 
